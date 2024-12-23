@@ -1,0 +1,39 @@
+/* Đặt kiểu font chữ cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;  /* Chọn font chữ cho toàn bộ trang */
+    background-color: #f4f4f4;      /* Màu nền của trang */
+    color: #333;                    /* Màu chữ */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;      /* Màu nền của header */
+    color: white;                   /* Màu chữ trong header */
+    text-align: center;             /* Căn giữa nội dung */
+    padding: 20px;                  /* Khoảng cách xung quanh chữ */
+}
+
+h1 {
+    margin: 0;                      /* Xóa bỏ margin mặc định */
+}
+
+/* Phần giới thiệu và dự án */
+section {
+    margin: 20px;                   /* Khoảng cách giữa các phần */
+    padding: 20px;                  /* Khoảng cách bên trong phần */
+    background-color: white;        /* Màu nền trắng */
+    border-radius: 5px;             /* Bo góc các phần */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho phần */
+}
+
+h2 {
+    color: #4CAF50;                 /* Màu tiêu đề phần (giới thiệu và dự án) */
+}
+
+/* Footer */
+footer {
+    text-align: center;             /* Căn giữa chữ trong footer */
+    background-color: #333;         /* Màu nền footer */
+    color: white;                   /* Màu chữ trong
